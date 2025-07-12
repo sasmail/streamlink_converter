@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+  font-family: "Helvetica", "sans-serif";
+}
+
+.app {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* found on stackOverflow https://stackoverflow.com/questions/42121150/css-centering-with-transform */
+  transform: translate(-50%, -50%);
+  width: 25vw;
+  height: 20vh;
+}
+
+.navbar {
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+
+.heading {
+  text-align: center;
+  color: #007bff;
+  text-shadow: 0 0 1px #007bff;
+}
+
+.nav-link {
+  padding: 5px;
+  margin: 5px;
+}
+
+.inputSection {
+  text-align: center;
+}
+
+input {
+  margin: 5px;
+  box-shadow: 0 0 5px #007bff;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 2px #007bff;
+}
