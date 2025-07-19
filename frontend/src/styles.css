@@ -1,5 +1,5 @@
 body {
-  background-color: white;
+  background-color: #b5c0c6;
   font-family: "Helvetica", "sans-serif";
 }
 
@@ -21,13 +21,22 @@ body {
 
 .heading {
   text-align: center;
-  color: #007bff;
-  text-shadow: 0 0 1px #007bff;
+  color: #3b5244;
+  text-shadow: 0.5px 0.5px 0 #344340;
 }
 
 .nav-link {
   padding: 5px;
   margin: 5px;
+  color: #3b5244;
+  text-decoration: none;
+
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #7b9492;
+  text-transform: uppercase;
 }
 
 .inputSection {
@@ -36,12 +45,16 @@ body {
 
 input {
   margin: 5px;
-  box-shadow: 0 0 5px #007bff;
+  box-shadow: 1px 1px 0 #344340;
+  border-radius: 5px;
+  border: none;
+
 }
 
 button {
-  background-color: #007bff;
+  background-color: #3b5244;
   color: white;
   border-radius: 5px;
-  box-shadow: 0 0 2px 2px #007bff;
+  box-shadow: 1px 1px 0 #344340;
+  border: none;
 }
